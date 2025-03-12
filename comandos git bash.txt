@@ -1,0 +1,11 @@
+comandos git bash
+
+git status # ver oq vai ser adicionado
+
+git add . # adicionar os itens faltantes (em vermelho)
+
+git commit -m " "  # fazer o commit de fato
+
+git push origin main # lançar as coisas novas para o git hub
+
+git pull # atualizar repositoriio da maquina
