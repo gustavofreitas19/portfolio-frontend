@@ -1,1 +1,1 @@
-Esse é meu portfolio da materia de frontend que estou cursando no priemiro semestre de 2025
+Esse é meu portfolio da materia de frontend que estou cursando no primeiro semestre de 2025
