@@ -1,0 +1,73 @@
+/* Importando a fonte do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Definindo a fonte padrão da página */
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilizando os títulos */
+h1 {
+    color: rebeccapurple;
+    font-size: 1rem;
+    margin: 0;
+}
+
+/* Estilizando o rodapé */
+.rodape {
+    color: #555;
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+/* Estilo da imagem */
+img {
+    max-width: 100%;
+}
+
+/* Especificações para o primeiro artigo */
+#destaque {
+    margin: 3rem;
+    padding: 3rem;
+    background-color: #EEE;
+}
+
+#destaque img {
+    height: 50rem;
+}
+
+#destaque h1 {
+    font-size: 2rem;
+}
+
+#destaque .manchete {
+    font-size: 1.5rem;
+}
+
+/* Estilo geral para outros artigos */
+article img {
+    height: 30rem;
+}
+
+article h1 {
+    font-size: 1.5rem;
+}
+
+article .manchete {
+    font-size: 1rem;
+}
+
+article {
+    margin: 2rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+}
+
+/* Rodapé do site */
+footer {
+    margin-top: 3rem;
+    font-size: 0.8rem;
+}
