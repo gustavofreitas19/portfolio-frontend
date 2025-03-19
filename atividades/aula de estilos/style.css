@@ -1,0 +1,12 @@
+div{
+    background-color: blueviolet;
+    margin: 30px;
+    padding: 20px;
+    border: 2px solid black;
+    display: inline;
+    text-align: center;
+    position: fixed;
+    top:850px;
+    right:-5px;
+    bottom: unset;
+}
