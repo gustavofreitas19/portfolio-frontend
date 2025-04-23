@@ -4,17 +4,27 @@ const form = document.getElementById('formularioPartida');
 const resultadosDiv = document.getElementById('resultados');
 
 const times = [
-    { nome: 'Flamengo', logo: 'https://i.imgur.com/G1yKP5r.png' },
-    { nome: 'Palmeiras', logo: 'https://i.imgur.com/L4PEyUq.png' },
-    { nome: 'Corinthians', logo: 'https://i.imgur.com/DXzT8wc.png' },
-    { nome: 'São Paulo', logo: 'https://i.imgur.com/dPMUDo3.png' },
-    { nome: 'Grêmio', logo: 'https://i.imgur.com/1ZbN1Tw.png' },
-    { nome: 'Internacional', logo: 'https://i.imgur.com/VTVUuHq.png' },
-    { nome: 'Cruzeiro', logo: 'https://i.imgur.com/gK7B4OQ.png' },
-    { nome: 'Atlético-MG', logo: 'https://i.imgur.com/ptbLZ63.png' },
-    { nome: 'Vasco', logo: 'https://i.imgur.com/h9B5Xmy.png' },
-    { nome: 'Botafogo', logo: 'https://i.imgur.com/O9S0CkF.png' }
-  ];
+  { nome: 'Flamengo', logo: './imagens/Flamengo.png' },
+  { nome: 'Atlético-MG', logo: './imagens/AtleticoMG.png' },
+  { nome: 'Bahia', logo: './imagens/Bahia.png' },
+  { nome: 'Botafogo', logo: './imagens/Botafogo.png' },
+  { nome: 'Red Bull Bragantino', logo: './imagens/Bragantino.png' },
+  { nome: 'Ceará', logo: './imagens/Ceara.png' },
+  { nome: 'Corinthians', logo: './imagens/Corinthians.png' },
+  { nome: 'Cruzeiro', logo: './imagens/Cruzeiro.png' },
+  { nome: 'Fluminense', logo: './imagens/Fluminense.png' },
+  { nome: 'Fortaleza', logo: './imagens/Fortaleza.png' },
+  { nome: 'Grêmio', logo: './imagens/Grêmio.png' },
+  { nome: 'Internacional', logo: './imagens/Internacional.png' },
+  { nome: 'Juventude', logo: './imagens/Juventude.png' },
+  { nome: 'Mirassol', logo: './imagens/Mirassol.png' },
+  { nome: 'Palmeiras', logo: './imagens/Palmeiras.png' },
+  { nome: 'Santos', logo: './imagens/Santos.png' },
+  { nome: 'São Paulo', logo: './imagens/SãoPaulo.png' },
+  { nome: 'Sport', logo: './imagens/SportRecife.png' },
+  { nome: 'Vasco', logo: './imagens/Vasco.png' },
+  { nome: 'Vitória', logo: './imagens/Vitória.png' }
+];
 
 function carregarTimes() {
   times.forEach(time => {
