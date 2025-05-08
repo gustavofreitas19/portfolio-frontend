@@ -1,0 +1,27 @@
+.profile-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 350px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+.avatar {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.profession {
+  color: #555;
+}
+
+.contact-info, .skills {
+  margin-top: 15px;
+}
+
+h2, h3 {
+  margin: 10px 0;
+}
